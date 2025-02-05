@@ -25,7 +25,7 @@ public class Jyanken_Chapter26 {
 		
 		public String getRandom() {
 			String[] opponentChoice = { "r", "s", "p"};
-			int i = (int) (Math.random() * 3);
+			int i = (int) (Math.floor(Math.random() * 3));
 			return opponentChoice[ i ];
 			
 		}
